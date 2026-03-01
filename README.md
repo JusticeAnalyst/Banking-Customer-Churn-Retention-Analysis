@@ -129,10 +129,10 @@ Banking-Customer-Churn-Retention-Analysis/
 ## 📊 Sample Visualizations
 
 ### Dashboard 1: Customer & Churn Overview
-![Customer Churn Overview]([dashboards/Customer_Churn_Overview.png](https://github.com/JusticeAnalyst/Banking-Customer-Churn-Retention-Analysis/blob/main/Screenshot%202026-02-15%20210852.png))
+![Customer Churn Overview] (https://github.com/JusticeAnalyst/Banking-Customer-Churn-Retention-Analysis/blob/main/Screenshot%202026-02-15%20212051.png)
 
 ### Dashboard 2: Product, Value & Retention Drivers
-![Product Value & Retention](dashboards/Product_Value_Retention.png)
+![Product Value & Retention]([dashboards/Customer_Churn_Overview.png](https://github.com/JusticeAnalyst/Banking-Customer-Churn-Retention-Analysis/blob/main/Screenshot%202026-02-15%20210852.png)
 
 ## 📈 Business Impact
 
