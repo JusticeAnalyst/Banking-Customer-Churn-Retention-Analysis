@@ -1,66 +1,161 @@
 # Banking-Customer-Churn-Retention-Analysis
 Data-Driven Insights for Customer Loyalty and Retention Strategy **Author: Justice Analyst** | Last Updated: 15 February 2026
 
-##  Project Overview
+Comprehensive churn analysis and customer retention strategy for banking sector, featuring customer segmentation, value analysis, and predictive risk modeling using Power BI.
 
-This Power BI dashboard provides a comprehensive analysis of banking customer churn behaviour, retention drivers, and revenue exposure from attrition. It is structured across **two analytical pages** designed to help identify at-risk customers, understand churn patterns by geography and demographics, and guide targeted retention strategies.
+## 📊 Project Overview
 
-##  Repository Contents
+This project analyzes banking customer data to identify churn patterns, high-value customer segments, and retention drivers. The analysis provides actionable insights for reducing customer attrition and maximizing customer lifetime value.
 
-| File | Description |
-| `Screenshot_Customer_Churn_Overview.png` | Page 1 – Churn distribution, geography, gender, and tenure segments |
-| `Screenshot_Product_Value_Retention.png` | Page 2 – Activity vs churn, value segmentation, product engagement, and at-risk customer table |
+## 🎯 Business Objectives
 
-##  Key Metrics
+- Identify customers at high risk of churning
+- Analyze churn patterns by customer segments
+- Understand drivers of customer loyalty and retention
+- Quantify revenue exposure from customer attrition
+- Develop targeted retention strategies by customer value
 
-| Metric | Value |
-| Total Customers | 10,000 |
-| Churn Rate | 20.37% |
-| Retention Rate | 79.63% |
-| Average Balance | $76,486 |
-| Active Member Rate | 51.51% |
-| Avg Balance (Churned) | $91K |
-| Avg Balance (Retained) | $73K |
+## 📈 Key Metrics Analyzed
 
-##  Dashboard Pages
+- **Total Customers**: 10,000
+- **Overall Churn Rate**: 20.37%
+- **Average Customer Balance**: €76,486
+- **Active Member Rate**: 51.51%
+- **Revenue Exposure from Churn**: 911K (high-value customers)
 
-### Page 1 – Customer & Churn Overview
-Provides a high-level view of churn distribution across demographics and geography.
+## 🔍 Key Insights
 
-- **20.37%** of customers have churned, with **79.63%** retained
-- **Germany** has the highest churn concentration at **32.44%**, significantly above Spain (16.67%) and France (16.15%)
-- **Female customers churn more** than male customers — 25.07% vs 16.46%
-- Churn rates are fairly consistent across tenure segments: New (21.15%), Growing (20.76%), and Loyal (19.67%), suggesting tenure alone is not a strong retention predictor
+### Customer Value Segmentation
+- **High Value Customers**: 25.23% of base, 19.88% churn rate
+- **Medium Value Customers**: Highest churn at 19.88%
+- **Low Value Customers**: 14.25% churn rate
+- Revenue at risk: 73K from retained high-value vs 91K from churned
 
-### Page 2 – Product, Value & Retention Drivers
-Digs into behavioural and value-based drivers of churn.
+### Churn by Customer Activity
+- **Not Active Customers**: 26.85% churn rate (nearly 2x active customers)
+- **Active Customers**: 14.27% churn rate
+- Clear correlation between engagement and retention
 
-- **Inactive members churn nearly twice as much** as active members — 26.85% vs 14.27%
-- **High-value customers churn the most** at 25.23%, followed by Medium Value (19.88%) and Low Value (14.25%), highlighting significant revenue risk at the top of the customer base
-- **Churned customers carry higher average balances ($91K)** than retained customers ($73K), amplifying the financial impact of attrition
-- Customers with **only 1 product** show the highest churn risk; engagement increases with product count
-- An **At-Risk Customer Monitoring Table** lists high-balance customers for targeted retention intervention
+### Geographic Churn Patterns
+- **Germany**: Highest churn risk at 32.44%
+- **Spain**: 16.67% churn rate
+- **France**: 16.15% churn rate
+- Geographic concentration of risk enables targeted interventions
 
-##  Key Insights
-- **Germany is a critical churn hotspot** — more than 1 in 3 German customers churn, requiring a region-specific retention strategy
-- **Female customers are disproportionately at risk** — a gender-targeted engagement approach could improve retention
-- **Inactivity is a strong churn signal** — re-engagement campaigns for dormant members could meaningfully reduce churn
-- **High-value customers churning at the highest rate** represents the largest revenue risk — these customers deserve priority retention attention
-- **Product depth reduces churn** — customers with 2+ products are significantly less likely to leave, making cross-selling a key retention lever
+### Gender & Demographics
+- **Female customers**: 25.07% churn rate (higher risk)
+- **Male customers**: 16.46% churn rate
+- Suggests need for gender-specific retention strategies
 
-##  Recommendations
-1. **Launch a Germany-focused retention campaign** — investigate regional service gaps and tailor offerings to reduce the 32.44% churn rate
-2. **Target female customers with personalised retention offers** — address the 25.07% churn rate through dedicated engagement programmes
-3. **Re-engage inactive members** — proactive outreach to the 48.49% inactive base before they churn, given their nearly double churn rate
-4. **Prioritise high-value customer retention** — introduce VIP programmes, dedicated relationship managers, or exclusive benefits for top-tier customers
-5. **Drive cross-product adoption** — incentivise single-product customers to adopt a second, as product engagement is strongly associated with lower churn
+### Tenure Insights
+- **New Customers** (0-3 years): 21.15% churn
+- **Growing Customers** (3-6 years): 20.76% churn
+- **Loyal Customers** (6+ years): 19.67% churn
+- Surprisingly consistent across tenure—indicates systemic issues
 
-##  Tools Used
-- **Power BI** — Dashboard design, DAX measures, and interactive visualisations
-- **Banking Customer Dataset** — 10,000 customer records covering balance, tenure, geography, activity, product usage, and churn status
+### Product Engagement vs Churn
+- Customers using **1 product**: 28% churn in high-risk segment
+- Customers using **2 products**: 15% churn (optimal)
+- Customers using **3+ products**: Increasing churn (over-serviced?)
+- Sweet spot at 2 products for retention
 
-##  Author
-**Justice Analyst**
-- Linkedin [@JusticeAnalyst](https://twitter.com/JusticeAnalyst)
-- Twitter [@JusticeNelson50](https://twitter.com/JusticeNelson50)
+## 💡 Strategic Recommendations
 
+1. **Priority: Germany Market Intervention**
+   - 32.44% churn rate significantly above other markets
+   - Requires market-specific retention program
+   - Investigate service quality and competitive factors
+
+2. **Activate Inactive Customers**
+   - 26.85% churn vs 14.27% for active customers
+   - Implement engagement campaigns for dormant accounts
+   - Create value triggers to increase activity
+
+3. **Female Customer Retention Program**
+   - 25.07% churn rate requires focused attention
+   - Develop gender-specific value propositions
+   - Address potential service gaps
+
+4. **Optimize Product Portfolio**
+   - Target 2-product sweet spot (lowest churn)
+   - Cross-sell to 1-product customers
+   - Review 3+ product customer experiences
+
+5. **High-Value Customer Protection**
+   - 91K revenue exposure from high-value churn
+   - Dedicated relationship managers for top tier
+   - Proactive outreach to at-risk high-value segments
+
+## 🛠️ Tools & Technologies
+
+- **Power BI**: Interactive dashboard development, DAX measures, data modeling
+- **Excel**: Data preparation, statistical analysis
+- **Data Analysis**: Customer segmentation, cohort analysis, risk scoring
+
+## 📊 Dashboard Pages
+
+1. **Customer & Churn Overview**: High-level metrics, churn distribution, geographic analysis
+2. **Product, Value & Retention Drivers**: Segmentation, product engagement, revenue exposure
+
+## 📁 Project Structure
+
+```
+Banking-Customer-Churn-Retention-Analysis/
+│
+├── data/
+│   └── banking_customer_data.xlsx
+│
+├── dashboards/
+│   ├── Customer_Churn_Overview.png
+│   └── Product_Value_Retention.png
+│
+├── models/
+│   └── churn_risk_scoring_methodology.md
+│
+└── README.md
+```
+
+## 🎓 Skills Demonstrated
+
+- Banking sector analytics
+- Customer lifetime value (CLV) analysis
+- Churn prediction and risk assessment
+- Geographic and demographic segmentation
+- Product portfolio analysis
+- Revenue impact quantification
+- Retention strategy development
+- Executive dashboard design
+
+## 📊 Sample Visualizations
+
+### Dashboard 1: Customer & Churn Overview
+![Customer Churn Overview](dashboards/Customer_Churn_Overview.png)
+
+### Dashboard 2: Product, Value & Retention Drivers
+![Product Value & Retention](dashboards/Product_Value_Retention.png)
+
+## 📈 Business Impact
+
+This analysis enables:
+- **Proactive Retention**: Identify at-risk customers before they churn
+- **Targeted Interventions**: Focus resources on highest-value, highest-risk segments
+- **Revenue Protection**: Quantify and prevent revenue loss from attrition
+- **Strategic Planning**: Data-driven retention strategy by geography and segment
+
+## 🔗 Related Projects
+
+- [Product Performance & Feature Impact Analysis](https://github.com/JusticeAnalyst/Product-Performance-Feature-Impact-Analysis)
+- [Pharmaceutical Sales Analytics](https://github.com/JusticeAnalyst/Pharma-Sales-Profitability-Analytics)
+
+## 📫 Contact
+
+**Lucky Justice Nelson**  
+Business Analyst | Data-Driven Decision Support
+
+- LinkedIn: [linkedin.com/in/justice-analyst](https://www.linkedin.com/in/justice-analyst)
+- Email: justicelucky436@gmail.com
+- Portfolio: [github.com/JusticeAnalyst](https://github.com/JusticeAnalyst)
+
+---
+
+⭐ If you find this project helpful, please star the repository!
